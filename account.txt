@@ -1,0 +1,10 @@
+Here are the details of your new API account.
+Application name	Music evolution
+API key	a280fb8ba1276bc1ab7408dd8c44fe04
+Shared secret	a7ba069299919b263c2413bebcbfe50d
+Registered to	blindcat
+
+curl 'http://ws.audioscrobbler.com/2.0/?method=user.getartisttracks&user=blindcat&artist=nirvana&api_key=a280fb8ba1276bc1ab7408dd8c44fe04&format=json' | jq
+
+curl 'http://ws.audioscrobbler.com/2.0/?method=user.getweeklychartlist&user=blindcat&api_key=a280fb8ba1276bc1ab7408dd8c44fe04&format=json' | jq
+
